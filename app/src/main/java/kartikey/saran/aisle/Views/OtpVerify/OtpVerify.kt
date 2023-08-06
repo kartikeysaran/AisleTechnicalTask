@@ -98,6 +98,10 @@ class OtpVerify : AppCompatActivity() {
             otp = binding.eTOtp.text.toString()
             viewModel.performOTPLogin(phoneNumber, otp)
         }
+
+        binding.tVPhone.setOnClickListener{
+            finish()
+        }
     }
 
     fun hideKeyboard() {
