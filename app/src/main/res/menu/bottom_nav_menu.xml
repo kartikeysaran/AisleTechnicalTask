@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_discover"
+        android:icon="@drawable/baseline_discover_24"
+        android:title="@string/discover" />
+
+    <item
+        android:id="@+id/navigation_notes"
+        android:icon="@drawable/baseline_notes_24"
+        android:title="@string/notes" />
+
+    <item
+        android:id="@+id/navigation_matches"
+        android:icon="@drawable/baseline_matches_24"
+        android:title="@string/matches" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/baseline_profile_24"
+        android:title="@string/profile" />
+
+</menu>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.PhoneNumber.PhoneNumberActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleInverse"
+        android:indeterminateOnly="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_otp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/tV_get_otp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tV_get_otp"
+        android:text="@string/enter_number"
+        app:layout_constraintLeft_toLeftOf="@id/tV_get_otp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tV_enter_number"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="3"
+        android:layout_marginTop="10dp"
+        android:padding="10sp"
+        app:layout_constraintLeft_toLeftOf="@id/tV_enter_number"
+        app:layout_constraintTop_toBottomOf="@id/tV_enter_number"
+        android:background="@drawable/edit_text_border"
+        android:text="+91"
+        android:enabled="false"
+        android:id="@+id/eT_country_code"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:layout_marginTop="10dp"
+        android:padding="10sp"
+        android:inputType="number"
+        app:layout_constraintLeft_toRightOf="@id/eT_country_code"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tV_enter_number"
+        android:background="@drawable/edit_text_border"
+        android:text="9876543212"
+        android:id="@+id/eT_phoneNumber"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/eT_country_code"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/aisle_yellow"
+        app:layout_constraintLeft_toLeftOf="@id/eT_country_code"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/btn_continue"
+        android:text="@string/continue_text"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

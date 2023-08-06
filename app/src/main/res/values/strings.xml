@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Aisle Task</string>
+    <string name="continue_text">Continue</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_number">Enter your\nPhone number</string>
+    <string name="title_activity_otp_verification">OtpVerification</string>
+    <string name="enter_otp">Enter The\nOTP</string>
+    <string name="error">Error</string>
+    <string name="title_activity_dashboard_bottom_navigation">DashboardBottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="please_try_again_later">Please try again later</string>
+    <string name="enter_10_digit_phone_number">Enter 10 digit phone number</string>
+    <string name="enter_4_digit_otp">Enter 4 digit OTP</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="_0_00">0:00</string>
+    <string name="discover">Discover</string>
+    <string name="notes">Notes</string>
+    <string name="matches">Matches</string>
+    <string name="profile">Profile</string>
+    <string name="personal_message_to_you">Personal message to you</string>
+    <string name="tap_to_view_50_notes">Tap to view 50+ notes</string>
+    <string name="interested_in_you">Interested in You</string>
+    <string name="premium_members_can_nview_all_their_likes_at_once">Premium members can\nview all their likes at once</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="you_are_good_to_go">You are good to go</string>
+    <string name="please_login_first">Please login first</string>
+    <string name="some_error_occurred_please_try_again_later">Some Error Occurred! Please try again later</string>
+</resources>
